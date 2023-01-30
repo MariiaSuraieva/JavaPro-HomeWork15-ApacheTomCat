@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="toWeb:war">
+    <output-path>$PROJECT_DIR$/toWeb/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>toWeb</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="toWeb-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="toWeb:war exploded" />
+    </root>
+  </artifact>
+</component>
